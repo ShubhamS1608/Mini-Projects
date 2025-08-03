@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 90%;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 20px;
+}
+body{
+    text-align: center;
+    background-image: url("cat.img");
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+}
+h2 {
+  color: #ffffff; /* Pure white text */
+  text-shadow: 2px 2px 8px rgba(207, 160, 33, 0.7); /* Black shadow for contrast */
+  font-weight: bold;
+}
+
+button {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
