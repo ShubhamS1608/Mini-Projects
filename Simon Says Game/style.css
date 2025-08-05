@@ -1,30 +1,40 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-div.class1.class2{
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
-    border: 2px solid black;
+
+.btn {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  border: 10px solid black;
+  margin: 2.5rem;
 }
-.button{
-    height: 200px;
-    width: 200px;
-    border-radius: 20%;
-    border: 20px solid black;
-    justify-content: center;
-    margin: 35px;
-    padding: 20px;
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
-#red{
-    background-color: rgb(233, 55, 55);
+
+.yellow {
+  background-color: #c2bf28;
 }
-#green{
-    background-color: rgb(43, 105, 43);
+
+.red {
+  background-color: #df2d2d;
 }
-#yellow{
-    background-color: rgb(236, 236, 38);
+
+.purple {
+  background-color: #8b2499;
 }
-#blue{
-    background-color: rgb(141, 43, 165);
+
+.green {
+  background-color: #35b15e;
+}
+
+.flash {
+  background-color: white;
+}
+
+.userflash {
+  background-color: green;
 }
