@@ -1,3 +1,7 @@
+*{
+  margin: auto;
+  text-align: center;
+}
 div{
     height: 100px;
     width: 90%;
@@ -5,11 +9,11 @@ div{
     text-align: center;
     margin: auto;
     background-color: rgba(255,255,255,0.5);
-    padding-top: 20px;
+    padding-top: 15px;
 }
 body{
     text-align: center;
-    background-image: url("cat.img");
+    background-image: url("cat.jpg");
     background-size: cover;
     background-position: center;
     align-content: center;
@@ -18,19 +22,21 @@ h2 {
   color: #ffffff; /* Pure white text */
   text-shadow: 2px 2px 8px rgba(207, 160, 33, 0.7); /* Black shadow for contrast */
   font-weight: bold;
+  padding-top: 20px;
 }
 
 button {
   background-color: #ffffff;
   color: #333;
-  border: none;
+  border: 2px solid black;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 40px;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  margin: auto;
 }
 
 button:hover {
-  background-color: #f2f2f2;
+  background-color: #eadede;
 }
