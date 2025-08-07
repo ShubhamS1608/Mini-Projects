@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f7ff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.day {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.day:hover {
+  background-color: #e0f0ff;
+}
+
+.day ul {
+  list-style-type: none;
+  padding: 5px 0 0;
+  margin: 0;
+}
+
+.day li {
+  font-size: 14px;
+  margin-top: 5px;
+  background: #dfffe0;
+  border-radius: 5px;
+  padding: 4px 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.day li.completed {
+  text-decoration: line-through;
+  background-color: #fcdede;
+  color: #888;
+}
+.assign{
+  height: 250px;
+  width: 250px;
+  background-color: pink;
+  font-size:30px;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+  padding-inline-start: 10px;
+  padding-block-start: 10px;
+  padding-top: 20px;
+}
+#ass{
+  text-align: left;
+  font-size: 30px;
+}
+#dd{
+  font-size: 15px;
+}
+.menu{
+  text-align: left;
+  text-decoration: none;
+}
+.sidebar-menu{
+  height: 100vh;
+  width:300px;
+  background-color: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+#user{
+  font-size: 30px;
+  padding: 10px 40px;
+}
