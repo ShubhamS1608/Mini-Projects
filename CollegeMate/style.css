@@ -3,6 +3,115 @@ body {
   background: #bfa2e0;
   text-align: center;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #0b0a25;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login {
+  height: 32rem;
+  width: 28rem;
+  background-color: aqua;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+h1 {
+  margin-left: 0.9rem;
+}
+
+.login p {
+  margin-top: 0.7rem;
+  margin-left: 0.9rem;
+}
+.details input[type="text"] {
+  width: 10rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  font-size: 15px;
+  padding: 10px;
+  border: 0.2px solid #333;
+  border-radius: 8px;
+  background-color: #0b0a25;
+  color: wheat;
+  margin-top: 2rem;
+}
+.email input[type="text"] {
+  width: 22.2rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  font-size: 15px;
+  padding: 10px;
+  border: 0.2px solid #333;
+  background-color: #0b0a25;
+  color: wheat;
+  border-radius: 8px;
+  margin-top: 1.2rem;
+}
+.password input[type="password"] {
+  width: 22.2rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  font-size: 15px;
+  padding: 10px;
+  border: 0.2px solid #333;
+  background-color: #0b0a25;
+  color: wheat;
+  border-radius: 8px;
+  margin-top: 1.2rem;
+}
+.login .tandc {
+  display: flex;
+  margin-top: 0.7rem;
+}
+.tandc p {
+  margin-top: 0.6rem;
+}
+.tandc input {
+  margin: 0.6rem 0.4rem 0rem 0.6rem;
+}
+.tandc input[type="checkbox"] {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.button button {
+  width: 23.5rem;
+  height: 2.4rem;
+  background-color: blueviolet;
+  border: 0.2px solid #333;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  margin-top: 1.8rem;
+  font-weight: 530;
+  font-size: 1rem;
+}
+.button button:hover {
+  cursor: pointer;
+}
+.para p {
+  margin-left: 9.3rem;
+  margin-top: 1.4rem;
+}
+.register button {
+  width: 11rem;
+  height: 2.2rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  background-color: blueviolet;
+  border: 0.2px solid white;
+  border-radius: 4px;
+  font-weight: 532;
+}
+.register button:hover {
+  cursor: pointer;
+}
+
 
 h1 {
   color: #444;
