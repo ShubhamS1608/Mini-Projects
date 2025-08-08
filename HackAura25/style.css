@@ -1,7 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f3f7ff;
-  padding: 20px;
+  background: #bfa2e0;
   text-align: center;
 }
 
@@ -104,4 +103,23 @@ h1 {
   background-image: url(Plan.jpeg);
   background-size:cover;
   border: 2px solid black;
+}
+.home{
+  height: 100vh;
+  width: 100%;
+  background-image: url(das.webp);
+  background-size: cover;
+}
+#dued{
+  height: 50px;
+  width: 90%;
+  background-color: rgba(0, 247, 255, 0.6);
+  padding-left: 50px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: left;
+}
+.check{
+  display: inline-block;
+  margin-left: 90%;
 }
