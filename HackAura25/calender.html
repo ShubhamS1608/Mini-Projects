@@ -7,31 +7,30 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <h1>📅 Planner</h1>
+  <div class="container">
+        <div class="sidebar-menu">
+        <div class="menu">
+            <div id="user">User</div>
+            <ul>
+                <li class="list">
+                    <a  href="dashboard.html">Home</a>
+                </li>
+                <li class="list">
+                    <a href="assign.html">Tasks</a>
+                </li>
+                <li class="list">
+                    <a href="calender.html">Planner</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cal">
+        <h1 style="color:white;">📅 Planner</h1>
   <div class="calendar" id="calendar"></div>
+    </div>
+    </div>
+  
 
-  <script>
-    const calendar = document.getElementById('calendar');
-    const daysInMonth = 30; // Simplified to 30 days
-
-    for (let day = 1; day <= daysInMonth; day++) {
-      const dateDiv = document.createElement('div');
-      dateDiv.className = 'day';
-      dateDiv.innerHTML = `<strong>${day}</strong><ul></ul>`;
-      dateDiv.addEventListener('click', function () {
-        const task = prompt(`Add event for day ${day}`);
-        if (task) {
-          const li = document.createElement('li');
-          li.textContent = task;
-          li.addEventListener('click', function (e) {
-            e.stopPropagation();
-            li.classList.toggle('completed');
-          });
-          dateDiv.querySelector('ul').appendChild(li);
-        }
-      });
-      calendar.appendChild(dateDiv);
-    }
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
